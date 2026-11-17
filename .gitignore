@@ -1,0 +1,15 @@
+# Зависимости Node.js (устанавливаются через npm install)
+**/node_modules/
+
+# Production-сборки React и сервера
+**/dist/
+
+# Секретный файл с паролем от PostgreSQL
+server/.env
+
+# Логи
+*.log
+
+# Системные файлы (на всякий случай)
+.DS_Store
+Thumbs.db
